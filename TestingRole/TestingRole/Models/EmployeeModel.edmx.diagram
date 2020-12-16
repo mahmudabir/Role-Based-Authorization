@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dbb854f3bbd24376ae8668c9fd7094d2" Name="Diagram1">
+        <EntityTypeShape EntityType="SampleModel.Department" Width="1.5" PointX="2.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleModel.Employee" Width="1.5" PointX="5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleModel.Role" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleModel.UserRoleMapping" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SampleModel.User" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="SampleModel.FK__Employee__Depart__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleModel.FK__UserRoleM__RoleI__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="SampleModel.FK__UserRoleM__UserI__2D27B809" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
